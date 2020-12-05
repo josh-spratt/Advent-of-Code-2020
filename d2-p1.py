@@ -1,5 +1,3 @@
-
-
 def open_txt_file_and_read_lines_to_list_of_dicts(txt_file):
     list_of_dicts_to_return = []
     with open(txt_file) as f:

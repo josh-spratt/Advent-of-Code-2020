@@ -1,4 +1,6 @@
 from collections import OrderedDict
+
+
 def parse_input_file_and_create_list(input_file):
     with open(input_file, 'r') as f:
         lines = f.read()
